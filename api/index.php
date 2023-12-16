@@ -9,5 +9,6 @@ function ntp($server,$port=123){
   $utcDate=date("Y-m-d H:i:s",$unixTimestamp);
   echo ":<b>$utcDate</b><br/>\n";
 }
+echo "good";
 ntp('time.cloudflare.com');
 phpinfo();
